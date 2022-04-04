@@ -1,49 +1,34 @@
 import React from 'react'
 import withLayout from './withLayout'
 
-function Home() {
+function home() {
   return (
- <div>
-   <h1>Welcome To My HomePage</h1> 
     <div>
-    <p> in the reign of his great-grandmother Queen Victoria, 
-    he was named Albert at birth after his great-grandfather Albert,
-     Prince Consort, and was known as "Bertie" to his family and close friends. 
-     His father ascended the throne as King George V in 1910. As the second son of 
-     the king, Albert was not expected to inherit the throne. He spent his early life 
-     in the shadow of his elder brother, Prince Edward, the heir apparent. 
-     Albert attended naval college as a teenager and served in the Royal Navy and Royal Air Force during the First World War. In 1920, he was made Duke of York. He married Lady Elizabeth Bowes-Lyon in 1923, and they had two daughters, Elizabeth and Margaret. In the mid-1920s, he had speech therapy for a stammer, which he learned to manage to some degree. His elder brother ascended the throne as Edward VIII after their father died in 1936, but Edward abdicated later that year to marry the twice-divorced American socialite Wallis Simpson; Albert thereby became the third monarch of the House of Windsor, 
-    taking the regnal name George VI.</p>
+    <h1>Welcome to my home page</h1>
+    <div>
+    <p>Kane was cast in The Fading Light by the director Ivan Kavanagh after he spotted her in a short film, 
+    July, that was posted on YouTube.[3] She was chosen partly for her successful experience with
+     improvisation in the short film.[4] 2013 saw her play Rose Stagg in the BBC's TV series The Fall,
+     and Dara in the comic Irish thriller Jump. Also in 2013, Kane played the title role in Strindberg's
+      Miss Julie at the newly founded Reading Rep.[5]</p>
 
-    <p> in the reign of his great-grandmother Queen Victoria, 
-    he was named Albert at birth after his great-grandfather Albert,
-     Prince Consort, and was known as "Bertie" to his family and close friends. 
-     His father ascended the throne as King George V in 1910. As the second son of 
-     the king, Albert was not expected to inherit the throne. He spent his early life 
-     in the shadow of his elder brother, Prince Edward, the heir apparent. 
-     Albert attended naval college as a teenager and served in the Royal Navy and Royal Air Force during the First World War. In 1920, he was made Duke of York. He married Lady Elizabeth Bowes-Lyon in 1923, and they had two daughters, Elizabeth and Margaret. In the mid-1920s, he had speech therapy for a stammer, which he learned to manage to some degree. His elder brother ascended the throne as Edward VIII after their father died in 1936, but Edward abdicated later that year to marry the twice-divorced American socialite Wallis Simpson; Albert thereby became the third monarch of the House of Windsor, 
-    taking the regnal name George VI.</p>
+    <p>Other film work Still Early,
+     a short film which premiered at the Galway Film Festival. Kane's work for the BBC in 2016 
+     includes taking the lead in BBC Three drama Thirteen, the third series of The Fall, and an
+      episode of Murder. Also that year, she played Lyra Erso, the protagonist's mother,
+       in the film Rogue One: A Star Wars Story.[6][7]</p>
+    
+    <p>Kane has been seen on stage as Nance, in the Finborough Theatre's production of Autumn Fire
+    ,[8] The Love in Punchdrunk's production The Black Diamond,[9] which sold out "in mere minutes"
+    [10] and Lady Lydia Languish in The Rivals.[11] She also played Girleen in Martin McDonagh's
+     The Lonesome West in which one reviewer said "Kane gives Girleen a schoolgirl reality,
+      her confident swagger and challenge covering the only genuine feelings for anyone else 
+      that the play possesses"</p>
+    </div>
 
-    <p> in the reign of his great-grandmother Queen Victoria, 
-    he was named Albert at birth after his great-grandfather Albert,
-     Prince Consort, and was known as "Bertie" to his family and close friends. 
-     His father ascended the throne as King George V in 1910. As the second son of 
-     the king, Albert was not expected to inherit the throne. He spent his early life 
-     in the shadow of his elder brother, Prince Edward, the heir apparent. 
-     Albert attended naval college as a teenager and served in the Royal Navy and Royal Air Force during the First World War. In 1920, he was made Duke of York. He married Lady Elizabeth Bowes-Lyon in 1923, and they had two daughters, Elizabeth and Margaret. In the mid-1920s, he had speech therapy for a stammer, which he learned to manage to some degree. His elder brother ascended the throne as Edward VIII after their father died in 1936, but Edward abdicated later that year to marry the twice-divorced American socialite Wallis Simpson; Albert thereby became the third monarch of the House of Windsor, 
-    taking the regnal name George VI.</p>
-    
-    
-    
-    
-    
-    
     </div>
     
-    
-    
-</div>
   )
 }
 
-export default withLayout(Home)
+export default withLayout (home)
