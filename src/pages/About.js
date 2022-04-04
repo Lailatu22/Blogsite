@@ -11,17 +11,25 @@ function About() {
 
     <div style={{marginTop:"10px"}}>
     <h3>name</h3>
-     <p>{about.Name}</p>
+     <p>{about.name}</p>
      </div>
 
      <div style={{marginTop:"10px"}}>
      <h3>bio</h3>
-      <p>{about.Bio}</p>
+      <p>{about.bio}</p>
       </div>
  
       <div style={{marginTop:"10px"}}>
       <h3>hobbies</h3>
-       <p>{about.hobbies.map}</p>
+      {about.hobbies.map((hobby)=>(
+        <p key={hobby} style={{display:"inline-block", marginRight:"10px"}}>
+        </p>
+      )
+        
+        )
+      }
+       
+       
        </div>
   
       </div>

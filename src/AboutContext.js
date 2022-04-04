@@ -5,8 +5,9 @@ export const AboutContext = createContext();
 function AboutContextProvider({children}) {
     const about={
         name:"lailat",
-        bio:"I am a lady who desires community growth",
-        hobbies:["Singing,Dancing"]
+        hobbies:["Singing", "Dancing"],
+        bio:"I am a lady who desires community growth"
+        
     }
   return (
     <AboutContext.Provider value={{about}}>{children}</AboutContext.Provider>
