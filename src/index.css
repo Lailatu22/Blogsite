@@ -38,3 +38,30 @@ footer{
   text-align: center;
   color: whitesmoke;
 }
+.banner{
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.banner > p{
+  font-size: 20px;
+
+}
+.banner  > h1{
+  font-size: 50px; 
+
+}
+.banner>p{
+  font-size: 20px;
+}
+
+.actions-wrap{
+  transition: scale(0.0);
+
+}
+.btn-outline{
+  color: crimson;
+}
